@@ -1,0 +1,56 @@
+
+body{
+background:#eee;
+font-family: 'Raleway', sans-serif;
+}
+.main-part{
+width:80%;
+margin:0 auto;
+text-align: center;
+padding: 0px 5px;
+}
+.cpanel{
+width:32%;
+display: inline-block;
+background-color:#34495E;
+color:#fff;
+margin-top: 50px;
+}
+.icon-part i{
+font-size: 30px;
+padding:10px;
+border:1px solid #fff;
+border-radius:50%;
+margin-top:-25px;
+margin-bottom: 10px;
+background-color:#34495E;
+}
+.icon-part p{
+margin:0px;
+font-size: 20px;
+padding-bottom: 10px;
+}
+.card-content-part{
+background-color: #2F4254;
+padding: 5px 0px;
+}
+.cpanel .card-content-part:hover{
+background-color: #5a5a5a;
+cursor: pointer;
+}
+.card-content-part a{
+color:#fff;
+text-decoration: none;
+}
+.cpanel-green .icon-part,.cpanel-green .icon-part i{
+background-color: rgb(75, 213, 213);
+}
+.cpanel-green .card-content-part{
+background-color: #5cc5b0;
+}
+.cpanel-blue .icon-part,.cpanel-blue .icon-part i{
+     background-color: #2980B9;
+}
+.cpanel-blue .card-content-part{
+     background-color:#2573A6;
+}
